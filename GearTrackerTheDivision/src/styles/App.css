@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.MuiPaper-root {
+    max-width: 100%;
+}
+
+.MuiButton-root {
+    min-width: 0;
+    padding: 5px 10px;
+}
+
+.icon-green {
+    filter: invert(46%) sepia(85%) saturate(563%) hue-rotate(82deg) brightness(90%) contrast(92%);
+}
+
+.icon-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);
+}
+
+.nameItem{
+    font-size: 1.1em !important;
+}
+
+.counter {
+    font-size: 1.2em !important;
+    margin: 0 10px !important;
+    width: 30px;
+    text-align: center;
+}
+
+.item-box {
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.item-box-active {
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para el modo claro */
+body.light-mode .item-box {
+    background-color: #fff;
+}
+
+body.light-mode .item-box-active {
+    background-color: #4caf50;
+}
+
+body.light-mode .item-box-active .icon-green {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode .item-box {
+    background-color: #333;
+}
+
+body.dark-mode .item-box-active {
+    background-color: #81c784;
+}
+
+body.dark-mode .item-box-active .icon-green {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);
+}
