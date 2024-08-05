@@ -34,7 +34,7 @@ const App: React.FC = () => {
             <CssBaseline />
             <Container style={{ marginTop: '16px' }}>
                 <Typography variant="h5" gutterBottom style={{ textAlign: 'center' }}>
-                    Contador de Sets Confidenciales
+                    Contador de Sets Confidenciales!
                 </Typography>
                 <FormControlLabel
                     control={<Switch checked={darkMode} onChange={() => setDarkMode(!darkMode)} />}
