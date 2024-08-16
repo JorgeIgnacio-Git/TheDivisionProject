@@ -50,8 +50,8 @@ const iconMap: { [key: string]: string } = {
     'Estrella Solitaria': loneStarIcon,
     'Senda del Nómada': pathOfTheNomadIcon,
     'Marca del Depredador': predatorsMarkIcon,
-    'Reclamador': reclaimerSetIcon,
-    'Centinela': sentrysCallIcon,
+    'Reclamación': reclaimerSetIcon,
+    'Vigilante': sentrysCallIcon,
     'Atacante': strikersBattlegearIcon,
     'Autoridad Táctica': tacticiansAuthorityIcon,
 };

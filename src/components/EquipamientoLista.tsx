@@ -13,8 +13,8 @@ const sets = [
     'Estrella Solitaria',
     'Senda del Nómada',
     'Marca del Depredador',
-    'Reclamador',
-    'Centinela',
+    'Reclamación',
+    'Vigilante',
     'Atacante',
     'Autoridad Táctica',
 ];
